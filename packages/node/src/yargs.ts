@@ -43,5 +43,9 @@ export const yargsOptions = yargsBuilder({
       type: 'string',
       default: 'https://arweave.net',
     },
+    subquery: {
+      demandOption: false,
+      default: '../testproj',
+    },
   },
 });
